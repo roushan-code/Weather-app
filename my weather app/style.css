@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:wght@200;500;600;700;900&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 60vmin;
+    height: 70vh;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    background: rgb(211, 45, 253);
+    background: linear-gradient(140deg, rgba(211, 45, 253, 1) 0%, rgba(69, 168, 216, 1) 75%, rgba(34, 194, 195, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.b1{
+    height: 60px;
+    width: 80%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main input {
+    background-color: white;
+    width: 80%;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.main button {
+    background-color: white;
+    width: 12%;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.b2{
+    width: 80%;
+    height: 60%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.b2 img{
+    height: 35%;
+    width: 35%;
+    /* border: 1px solid; */
+}
+.b2 h1{
+    font-size: 55px
+}
+.b2 p{
+    font-size: 30px;
+}
+.b3 {
+    >div{
+        width: 50%;
+        display: flex;
+        
+        justify-content: center;
+    }
+}
+.img{
+    width: 30px;
+height: 30px;
+/* border: 1px solid; */
+}
+.p1{
+    font-size: 25px;
+}
+.p2{
+    font-size: 14px;
+}

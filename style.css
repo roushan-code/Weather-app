@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.weather{
+    z-index: 2;
+    color: rgb(233, 200, 255);
+    display: flex;
+    align-items: center;
+}
+
+.weather div{
+    margin: 0.625rem;
+}
+.weather1{
+    font-size: 3rem;
+}
+.weather p{
+    font-size: 2rem;
+}
+.weather span{
+    font-size: 0.75rem;
+}
+
+
+.weather3 span{
+    margin: 0.3rem;
+}
+.weather3 img{
+    width: 2rem;
+}
+nav{
+    height: 100px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.18);
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgba(180, 177, 177, 0.075);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 100px 0 0;
+}
+
+nav form{
+    width: 70%;
+    grid-template-columns: 5fr 1fr;
+    display: grid;
+}
+.searchField{
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 98%;
+}
+
+nav form button{
+    background-color: rgb(87, 87, 87);
+    font-size: 1.1rem;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+nav form button {
+    background-image: linear-gradient(to right, #1c1149 0%, #d53aa3 51%, #ff7b00 100%);
+    margin: 3px;
+    padding: 10px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  nav form button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
